@@ -1,0 +1,22 @@
+.container {
+  margin-top: 30vh;
+}
+
+.container-nomargin {
+  margin-top: 3vh;
+}
+
+.image {
+  display: block;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-bottom: 25vh;
+  width: 100%;
+}
+
+@media (max-width: 576px) {
+  .image {
+    padding-bottom: 50vh;
+  }
+}
